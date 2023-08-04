@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+/OOP  KsiazkaAdresowa/Uzytkownicy.txt
+/OOP  KsiazkaAdresowa/Adresaci.txt
+/OOP  KsiazkaAdresowa/OOP  KsiazkaAdresowa.vcxproj
+/OOP  KsiazkaAdresowa/OOP  KsiazkaAdresowa.vcxproj.filters
+/OOP  KsiazkaAdresowa/OOP  KsiazkaAdresowa.vcxproj.user
