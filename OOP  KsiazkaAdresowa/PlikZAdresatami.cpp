@@ -54,7 +54,7 @@ void PlikZAdresatami::dopiszAdresataDoPliku(Adresat adresat)
 
 int PlikZAdresatami::pobierzIdAdresataZDanychOddzielonychPionowymiKreskami(string daneJednegoAdresataOddzielonePionowymiKreskami)
 {
-    int pozycjaRozpoczeciaIdAdresata = daneJednegoAdresataOddzielonePionowymiKreskami.find_first_not_of('|', 2);
+    int pozycjaRozpoczeciaIdAdresata = 0;
     int idAdresata = MetodyPomocnicze::konwersjaStringNaInt(pobierzLiczbe(daneJednegoAdresataOddzielonePionowymiKreskami, pozycjaRozpoczeciaIdAdresata));
     return idAdresata;
 }
