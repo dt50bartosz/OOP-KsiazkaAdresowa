@@ -18,7 +18,7 @@ private:
    
 
 public:
-	KsiazkaAdresowa(string NAZWAPLIKUZUZTYKOWNIKAMI,string NAZWAPLIKUZADRESATMI) : menagerUzytkownikow(NAZWAPLIKUZUZTYKOWNIKAMI), menagerAdresatow(NAZWAPLIKUZADRESATMI) {
+	KsiazkaAdresowa(string NAZWA_PLIKU_Z_UZTYKOWNIKAMI,string NAZWA_PLIKU_Z_ADRESATMI) : menagerUzytkownikow(NAZWA_PLIKU_Z_UZTYKOWNIKAMI), menagerAdresatow(NAZWAPLIKUZADRESATMI) {
 		menagerUzytkownikow.wczytaUzytkownikowZPliku();
 	};
 
