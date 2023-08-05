@@ -1,6 +1,6 @@
 #pragma once
 #ifndef MENAGERUZYTKOWNIKOW_H
-
+#define MENAGERUZYTKOWNIKOW_H
 
 #include <iostream>
 #include <vector>

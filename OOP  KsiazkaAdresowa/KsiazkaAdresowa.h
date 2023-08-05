@@ -1,7 +1,6 @@
 #pragma once
 #ifndef KSIAZKAZADRESAMI_H
-
-
+#define KSIAZKAZADRESAMI_H
 
 #include "MenagerUzytkownikow.h"
 #include "MenagerAdresatow.h"
